@@ -9,7 +9,7 @@ const Contact = () => {
   const [emailError, setEmailError] = useState('');
 
   const validateEmail = (email) => {
-    // Basic email validation regex
+    //  email validation regex
     const regex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
     return regex.test(email);
   };
@@ -50,7 +50,6 @@ const Contact = () => {
     }
 
     if (name && email && validateEmail(email)) {
-      // Add logic here to handle form submission later on
       console.log('Form submitted:', { name, email, message });
       // Reset form fields
       setName('');

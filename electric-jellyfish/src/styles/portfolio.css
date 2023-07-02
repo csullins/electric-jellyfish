@@ -1,38 +1,21 @@
-.card-background {
-  position: absolute;
-  list-style: none;
+.portfolio-wrapper {
   display: flex;
+  list-style: none;
   align-items: center;
-  justify-content: center;
-  width: 85%;
-  height: 50%;
-  top: 20%;
-  left: 0;
-  right: 0;
-  margin: auto;
+  background-color: black;
 }
 .portfolio-title {
   color: whitesmoke;
-  margin-top: 3%;
+  text-align: center;
+  font-size: 7vw;
+  margin-top: 10%;
 }
-
-.portfolio-links {
-  height: 300px;
-  width: 400px;
-  border-radius: 30pt;
-  margin-right: 4%;
+.repo-link {
+  color: white;
+  text-decoration: underline;
+  font-size: 30px;
 }
-
 .portfolio-image {
-  height: 300px;
-  width: 400px;
-  align-self: center;
-  border-radius: 30pt;
-  box-shadow: 5px 5px 30px 7px rgba(0,0,0,0.25), -5px -5px 30px 7px rgba(0,0,0,0.22);
-  transition: 0.4s;
+  height: 100vw;
+  width: 100vw;
 }
-.portfolio-image:hover {
-  transform: scale(1.1, 1.1);
-  transition: 0.4s;
-}
-
