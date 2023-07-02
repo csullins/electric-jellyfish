@@ -1,0 +1,17 @@
+.resume {
+  height: 20vw;
+  text-align: center;
+  padding: 5%;
+}
+
+.resume a {
+  text-decoration: none;
+  color: white;
+  font-size: 10vw;
+}
+@media screen and (min-width: 768px) {
+  /* Desktop styles */
+  .resume a {
+    font-size: 4vw;
+  }
+}
