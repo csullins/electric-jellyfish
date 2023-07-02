@@ -1,5 +1,5 @@
 # React Portfolio
- A portfolio created using React .
+ A portfolio created with React.
   
   ## 📘 Table of contents
   - [Installation](#installation)
@@ -11,7 +11,7 @@
 
   MIT License
 
-  ![license](./assets/mit.png)
+  ![license](./mit.png)
 
   ## Installation 
   
@@ -34,6 +34,8 @@
   🔬 N/A
 
   ## Mock-Up
+
+  ![demo](./demo.png)
 
   ## Questions❓
 
