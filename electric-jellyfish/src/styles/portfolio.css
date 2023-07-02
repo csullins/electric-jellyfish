@@ -19,3 +19,15 @@
   height: 100vw;
   width: 100vw;
 }
+@media screen and (min-width: 768px) {
+  /* Desktop styles */
+  .portfolio-title {
+    font-size: 5vw;
+  }
+  .portfolio-image {
+    height: 80vw;
+    width: 80vw;
+    margin: 10% 10% 0%;
+  }
+
+}

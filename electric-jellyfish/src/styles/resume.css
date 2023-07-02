@@ -9,3 +9,9 @@
   color: white;
   font-size: 10vw;
 }
+@media screen and (min-width: 768px) {
+  /* Desktop styles */
+  .resume a {
+    font-size: 4vw;
+  }
+}
