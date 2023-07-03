@@ -1,6 +1,5 @@
 import React from 'react';
 import '../../styles/resume.css';
-import me from '../../assets/images/me.jpeg'
 export default function Resume() {
     return (
       <div className="resume">
