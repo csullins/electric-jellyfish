@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/electric-jellyfish/static/css/main.c561e17b.css",
+    "main.js": "/electric-jellyfish/static/js/main.ba3818d6.js",
+    "static/media/codeQuiz.png": "/electric-jellyfish/static/media/codeQuiz.63a6d14025ae9700a562.png",
+    "static/media/barkbook.png": "/electric-jellyfish/static/media/barkbook.7731555cf5854aac6b30.png",
+    "static/media/firstPortfolio.png": "/electric-jellyfish/static/media/firstPortfolio.7aebcd800697443444e6.png",
+    "static/media/triviaMind.png": "/electric-jellyfish/static/media/triviaMind.da84a5ae26801216f605.png",
+    "static/media/forecastApp.png": "/electric-jellyfish/static/media/forecastApp.6ffc9d28f0d8582cfecf.png",
+    "static/media/me.jpeg": "/electric-jellyfish/static/media/me.a87d71b992beb333786a.jpeg",
+    "static/media/linkedin-icon.png": "/electric-jellyfish/static/media/linkedin-icon.96f263b6d0d76cd2f38e.png",
+    "static/media/pwGen.png": "/electric-jellyfish/static/media/pwGen.aa25cbf89939def02f6b.png",
+    "static/media/github-icon.png": "/electric-jellyfish/static/media/github-icon.987334e9f782cc505f25.png",
+    "static/media/stackoverflow-icon.png": "/electric-jellyfish/static/media/stackoverflow-icon.04252f4bc8a70d9e006f.png",
+    "index.html": "/electric-jellyfish/index.html",
+    "main.c561e17b.css.map": "/electric-jellyfish/static/css/main.c561e17b.css.map",
+    "main.ba3818d6.js.map": "/electric-jellyfish/static/js/main.ba3818d6.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c561e17b.css",
+    "static/js/main.ba3818d6.js"
+  ]
+}
