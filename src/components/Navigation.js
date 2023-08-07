@@ -15,15 +15,22 @@ function Navigation({ currentPage, handlePageChange }) {
           {currentPage === 'About' ? <ActiveBtn>About</ActiveBtn> : <InactiveBtn>About</InactiveBtn>}
         </NavLink>
       </NavItem>
+
       <NavItem>
-        <NavLink active={currentPage === 'Portfolio'} onClick={() => handlePageChange('Portfolio')}>
-          {currentPage === 'Portfolio' ? (
-            <ActiveBtn>Portfolio</ActiveBtn>
-          ) : (
-            <InactiveBtn>Portfolio</InactiveBtn>
-          )}
+
+        <NavLink 
+        active={currentPage === 'Portfolio'} 
+        onClick={() => handlePageChange('Portfolio')}>
+
+          {
+          currentPage === 'Portfolio' ? 
+          (<ActiveBtn>Portfolio</ActiveBtn>) 
+          : (<InactiveBtn>Portfolio</InactiveBtn>)
+          }
         </NavLink>
+
       </NavItem>
+      
       <NavItem>
         <NavLink active={currentPage === 'Resume'} onClick={() => handlePageChange('Resume')}>
           {currentPage === 'Resume' ? <ActiveBtn>Resume</ActiveBtn> : <InactiveBtn>Resume</InactiveBtn>}

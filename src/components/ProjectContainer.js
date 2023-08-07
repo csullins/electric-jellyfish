@@ -5,7 +5,7 @@ import About from './pages/About';
 import Portfolio from './pages/Portfolio';
 import Resume from './pages/Resume';
 import Contact from './pages/Contact';
-
+import "../styles/starsAnimation";
 
 export default function PortfolioContainer() {
   const [currentPage, setCurrentPage] = useState('About');
@@ -27,12 +27,17 @@ export default function PortfolioContainer() {
   const handlePageChange = (page) => setCurrentPage(page);
 
   return (
+    <div className="bg h-screen w-screen overflow-hidden">
+      <div id="stars"></div>
+      <div id="stars2"></div>
+      <div id="stars3"></div>
     <div>
-      {/* Pass the currentPage from state and the function to update it */}
+      {/* Pass the currentPage and the function to update it from state*/}
       <Navigation currentPage={currentPage} handlePageChange={handlePageChange} />
 
       {renderPage()}
       <Footer />
+    </div>
     </div>
   );
 }

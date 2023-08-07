@@ -3,6 +3,7 @@ import '../../styles/portfolio.css';
 import TriviaMind from '../../assets/images/triviaMind.png';
 import FirstPortfolio from '../../assets/images/firstPortfolio.png'
 import BarkBook from '../../assets/images/barkbook.png'
+import ShortStack from '../../assets/images/shortstack.png'
 import Forecast from '../../assets/images/forecastApp.png'
 import pwGenerator from '../../assets/images/pwGen.png'
 import codeQuiz from '../../assets/images/codeQuiz.png'
@@ -13,6 +14,12 @@ export default function Portfolio() {
       <h1 className='portfolio-title'>A collection of work.
       </h1>
       <ul>
+      <a href="https://shortstack.vercel.app/" target="_blank" rel="noopener noreferrer"> 
+          <img className="portfolio-image" src={ShortStack} alt="ShortStack website">
+          </img>
+        </a>
+        <a className='repo-link' href='https://github.com/csullins/BarkBook'target="_blank" rel="noopener noreferrer">BarkBook Github Repo </a>
+
         <a href="https://barkbookapp.herokuapp.com/" target="_blank" rel="noopener noreferrer"> 
           <img className="portfolio-image" src={BarkBook} alt="Barkbook website">
           </img>
